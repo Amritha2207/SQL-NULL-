@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS COUNTRIESS (Name char(50),iso char(2));
+	
+INSERT INTO Countries VALUES ('Afghanistan', 'AF');
+INSERT INTO Countries VALUES ('Belgium', 'BL');
+INSERT INTO Countries VALUES ('Algeria', 'DZ');
+INSERT INTO Countries VALUES ('Canada', 'CA');
+INSERT INTO Countries VALUES ('Denmark', 'DK');
+SELECT * FROM Countries ;
+update Countries set Name LIKE 'A%'; = NULL;
+SELECT * FROM Countries ;
